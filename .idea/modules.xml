@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/restapi-integ/restapi-integ.iml" filepath="$PROJECT_DIR$/restapi-integ/restapi-integ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-basic-auth-inmemory/spring-security-basic-auth-inmemory.iml" filepath="$PROJECT_DIR$/spring-security-basic-auth-inmemory/spring-security-basic-auth-inmemory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springsecurity.iml" filepath="$PROJECT_DIR$/.idea/springsecurity.iml" />
+    </modules>
+  </component>
+</project>

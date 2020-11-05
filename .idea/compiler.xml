@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-security-basic-auth-inmemory" />
+        <module name="restapi-integ" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="integ-restapi" target="1.8" />
+      <module name="integration-restapi" target="1.8" />
+      <module name="restapi-integ" target="1.8" />
+      <module name="restsecurity" target="1.8" />
+      <module name="spring-security-basic-auth-inmemory" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="integ-restapi" options="-parameters" />
+      <module name="integration-restapi" options="-parameters" />
+      <module name="restapi-integ" options="-parameters" />
+      <module name="restsecurity" options="-parameters" />
+      <module name="spring-security-basic-auth-inmemory" options="-parameters" />
+    </option>
+  </component>
+</project>
